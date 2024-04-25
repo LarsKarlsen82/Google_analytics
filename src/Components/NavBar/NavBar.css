@@ -1,0 +1,39 @@
+/* NavBar.css */
+
+/* Style for the header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  /* Style for the navigation container */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the list container */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the list items */
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Style for the link */
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Style for the link when hovered */
+  a:hover {
+    text-decoration: underline;
+  }
+  
