@@ -1,0 +1,19 @@
+/* CookieBanner.css */
+
+.cookie {
+    box-sizing: border-box;
+    border: 1px solid black; /* Correcting border property */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  .cookie p {
+    color: black; /
+  }
+  
+  .cookie button {
+    background-color: lightblue;
+    margin: 10px;
+  }
+  

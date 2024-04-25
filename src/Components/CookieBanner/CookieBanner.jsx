@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ReactGA from "react-ga4";
+import './CookieBanner.css';
 
 export const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(true);
@@ -29,7 +30,7 @@ export const CookieBanner = () => {
   return (
     <>
       {showBanner && (
-        <section >
+        <section className="cookie">
           <p>
             Denne side bruger cookies til at analysere data trafik. For at
             optimere siden. Hvis du acceptere at dine data bruges til at
